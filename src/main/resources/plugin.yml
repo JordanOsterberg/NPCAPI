@@ -1,0 +1,12 @@
+name: NPCPlugin
+version: ${project.version}
+main: dev.jcsoftware.npcs.example.NPCPlugin
+api-version: 1.16
+authors:
+  - Jordan Osterberg
+  - cococow123
+depend:
+  - ProtocolLib
+commands:
+  spawn:
+    description: Spawn an NPC
